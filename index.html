@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Barbearia</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+ 
+<nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">JK Barbearia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <!-- Botão de Contato -->
+                <li class="nav-item">
+                    <a class="btn btn-agendar ms-5" href="#contato">Agendar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+<section id="Início"  class="bg-light">
+    <div class="container">
+        <div class="row align-items-center">           
+            <div class="col-md-6">
+                <h1 class="display-4">Bem-vindo à JK Barbearia</h1>
+                <p class="lead">O melhor lugar para cuidar do seu estilo!</p>
+                <a href="#servicos" class="btn btn-agendar">Nossos Serviços</a>
+            </div> 
+            <div class="col-md-6 text-center">
+                <img src="img/hero.jpg" class="img-fluid rounded" alt="Barbearia do João">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <h2 class="text-right mb-4">Sobre Nós</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/equipe.jpeg" class="img-fluid rounded" alt="Sobre Nós">
+                </div>
+                <div class="col-md">
+                    <p>Na JK Barbearia, oferecemos cortes de cabelo e barba de alta qualidade em um ambiente descontraído e amigável. Nossa equipe de barbeiros experientes está pronta para te ajudar a encontrar o estilo perfeito.</p>
+                    <p>Desde 2022, temos orgulho de servir nossa comunidade com serviços excepcionais e atendimento personalizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <h2 class="text-center  mb-4">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Corte de Cabelo</h3>
+                    <img src="img/corte.jpg" class="img-fluid rounded" alt="corte de cabelo">
+                    <p>Cortes modernos e clássicos para todos os estilos.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Barba</h3>
+                    <img src="img/barba.jpg" class="img-fluid rounded" alt="barba">
+                    <p>Modelagem e cuidados com a barba para um visual impecável.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Sombracelha</h3>
+                    <img src="img/sobracelha.jpg"class="img-fluid rounded" alt="sombracelha">
+                    <p>Tratamentos nas sobracelhas com produtos premium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Seção de Depoimentos -->
+<section id="depoimentos" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">O que nossos clientes dizem</h2>
+        <div class="row">
+            <!-- Depoimento 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">João Silva</h5>
+                        <p class="card-text">"A JK Barbearia é incrível! Sempre saio satisfeito com o corte e o atendimento."</p>
+                        <div class="text-warning">
+                            ★★★★★
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Souza</h5>
+                        <p class="card-text">"Melhor barbearia da região! Profissionais qualificados e ambiente super agradável."</p>
+                        <div class="text-warning">
+                            ★★★★★
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Depoimento 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedro Almeida</h5>
+                        <p class="card-text">"Sempre fui muito bem atendido. Recomendo a todos que buscam qualidade e bom gosto!"</p>
+                        <div class="text-warning">
+                            ★★★★★
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!-- Contato -->
+    <section id="contato" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contato</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-agendar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 JK Barbearia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

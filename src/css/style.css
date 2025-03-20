@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; 
+}
+.display-4{
+    color: #e5c32e;
+    font-weight: bold;
+}
+.text-right{
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+.col-md{
+    font-weight: 900;
+}
+
+.navbar-brand{
+    color: #e5c32e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 990;
+}  
+
+.navbar {
+    transition: box-shadow 0.3s ease;
+}
+/* Personalização da navbar */
+.navbar-custom {
+    color: #a19f9ebc ; /* Cor de fundo personalizada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cor do texto na navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* Texto branco */
+}
+
+/* Cor do texto ao passar o mouse */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffcc00; /* Texto amarelo ao passar o mouse */
+}
+
+.navbar.scrolled {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important; 
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; 
+}
+
+.navbar {
+    margin-bottom: 0;
+    color: #757779;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #757779 !important;
+}
+
+footer {
+    background-color: #202225;
+    color: rgb(76, 57, 57);
+}
+.py-5{
+    background-color: #a19f9ebc;
+
+}
+.bg-dark{
+    background-color: rgba(161, 159, 158, 0.738);
+}
+.bg-light{
+    font-weight: bold;
+    font-size: 15px;
+}
+.text-center{
+    font-weight: bold;
+}
+
+
+.btn-agendar {
+    background-color: #e5c32e; 
+    border-color: #fff;
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+    border-radius: 30px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; 
+    font-weight: bold; 
+}
+
+.btn-agendar:hover {
+    background-color: #fff; 
+    border-color: #ffcc00; 
+    color: #e5c32e; 
+}
+
+

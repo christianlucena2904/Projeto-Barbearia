@@ -14,6 +14,7 @@ body {
 }
 .col-md{
     font-weight: 900;
+    
 }
 
 .navbar-brand{
@@ -30,12 +31,6 @@ body {
     color: #a19f9ebc ; /* Cor de fundo personalizada */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Cor do texto na navbar */
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff; /* Texto branco */
-}
-
 /* Cor do texto ao passar o mouse */
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #ffcc00; /* Texto amarelo ao passar o mouse */
@@ -46,14 +41,14 @@ body {
 }
 
 header {
-    background: url('images/hero.jpg') no-repeat center center/cover;
+    background: url('img/hero.jpg') no-repeat center center/cover;
     
 }
 
 
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff !important; 
+    color: #202225 !important; 
 }
 
 
@@ -110,5 +105,3 @@ footer {
     border-color: #ffcc00; 
     color: #e5c32e; 
 }
-
-
